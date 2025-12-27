@@ -1,18 +1,4 @@
 @media screen and (min-width: 769px) {
-  .photo__grid img {
-    width: 284px;
-    height: 213px;
-  }
-
-  .photo__grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 16px;
-    padding-bottom: 92px;
-    margin: 0 auto;
-  }
-
   .places__place {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -22,7 +8,6 @@
     position: relative;
     padding: 72px 24px 72px 24px;
   }
-
   .place__title {
     font-family: Inter;
     font-weight: 900;
@@ -31,7 +16,6 @@
     letter-spacing: 0%;
     max-width: 460px;
   }
-
   .place__website {
     font-family: Inter;
     font-weight: 400;
@@ -39,7 +23,6 @@
     line-height: 22px;
     letter-spacing: 0%;
   }
-
   .place__url-heading {
     font-family: Inter;
     font-weight: 400;
@@ -49,12 +32,10 @@
     text-transform: uppercase;
     color: #aaaaaa;
   }
-
   .place__img {
     width: 100%;
     max-width: 460px;
   }
-
   .place__paragraph {
     font-family: Inter;
     font-weight: 400;
@@ -62,11 +43,9 @@
     line-height: 163%;
     letter-spacing: 0%;
   }
-
   .place__paragraph-one {
     margin-bottom: 25px;
   }
-
   .place__button {
     position: absolute;
     bottom: 0px;
@@ -79,7 +58,6 @@
     color: white;
     border: none;
   }
-
   .place__button:hover {
     background: linear-gradient(
       90deg,
@@ -88,28 +66,10 @@
     );
   }
 }
-
 @media screen and (max-width: 768px) {
   .page {
     padding: 0;
   }
-
-  .photo__grid img {
-    width: 100%;
-    height: 264px;
-  }
-
-  .photo__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 16px;
-    padding-bottom: 92px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 24px 84px 24px;
-  }
-
   .places__place {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -119,7 +79,6 @@
     position: relative;
     padding: 0 24px 72px 24px;
   }
-
   .place__title {
     font-family: Inter;
     font-weight: 900;
@@ -128,7 +87,6 @@
     letter-spacing: 0%;
     max-width: 340px;
   }
-
   .place__website {
     font-family: Inter;
     font-weight: 400;
@@ -136,7 +94,6 @@
     line-height: 22px;
     letter-spacing: 0%;
   }
-
   .place__url-heading {
     font-family: Inter;
     font-weight: 400;
@@ -146,12 +103,10 @@
     text-transform: uppercase;
     color: #aaaaaa;
   }
-
   .place__img {
     width: 100%;
     max-width: 340px;
   }
-
   .place__paragraph {
     font-family: Inter;
     font-weight: 400;
@@ -159,7 +114,6 @@
     line-height: 163%;
     letter-spacing: 0%;
   }
-
   .place__button {
     position: absolute;
     top: 500px;
@@ -172,7 +126,6 @@
     color: white;
     border: none;
   }
-
   .place__button:hover {
     background: linear-gradient(
       90deg,
@@ -181,26 +134,17 @@
     );
   }
 }
-
 @media screen and (max-width: 320px) {
   .page {
     padding: 0;
     background-color: aqua;
   }
-
-  .photo__grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 8fr;
-  }
-
   .places__place {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
     row-gap: 30px;
   }
-
   .place__title {
     font-family: Inter;
     font-weight: 900;
@@ -208,7 +152,6 @@
     line-height: 35px;
     letter-spacing: 0%;
   }
-
   .place__website {
     font-family: Inter;
     font-weight: 400;
@@ -219,7 +162,6 @@
     flex-direction: column;
     justify-content: flex-end;
   }
-
   .place__url-heading {
     font-family: Inter;
     font-weight: 400;
@@ -228,11 +170,9 @@
     letter-spacing: 12%;
     text-transform: uppercase;
   }
-
   .place__img {
     width: 100%;
   }
-
   .place__paragraph {
     font-family: Inter;
     font-weight: 400;
@@ -241,7 +181,6 @@
     letter-spacing: 0%;
     padding: 0 16px 0 16px;
   }
-
   .place__button {
     width: 288px;
     height: 48px;
@@ -261,7 +200,6 @@
     letter-spacing: 0%;
     text-align: center;
   }
-
   .place__button:hover {
     background: linear-gradient(
       90deg,
