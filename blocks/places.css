@@ -8,7 +8,7 @@
     position: relative;
     padding: 72px 24px 72px 24px;
   }
-  .place__title {
+  .places__title {
     font-family: Inter;
     font-weight: 900;
     font-size: 72px;
@@ -16,14 +16,14 @@
     letter-spacing: 0%;
     max-width: 460px;
   }
-  .place__website {
+  .places__website {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0%;
   }
-  .place__url-heading {
+  .places__url-heading {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -32,21 +32,21 @@
     text-transform: uppercase;
     color: #aaaaaa;
   }
-  .place__img {
+  .places__img {
     width: 100%;
     max-width: 460px;
   }
-  .place__paragraph {
+  .places__paragraph {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     letter-spacing: 0%;
   }
-  .place__paragraph-one {
+  .places__paragraph-one {
     margin-bottom: 25px;
   }
-  .place__button {
+  .places__button {
     position: absolute;
     bottom: 0px;
     left: 24px;
@@ -58,7 +58,7 @@
     color: white;
     border: none;
   }
-  .place__button:hover {
+  .places__button:hover {
     background: linear-gradient(
       90deg,
       rgba(2, 120, 254, 0.25) 0%,
@@ -79,7 +79,7 @@
     position: relative;
     padding: 0 24px 72px 24px;
   }
-  .place__title {
+  .places__title {
     font-family: Inter;
     font-weight: 900;
     font-size: 42px;
@@ -87,14 +87,14 @@
     letter-spacing: 0%;
     max-width: 340px;
   }
-  .place__website {
+  .places__website {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0%;
   }
-  .place__url-heading {
+  .places__url-heading {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -103,18 +103,18 @@
     text-transform: uppercase;
     color: #aaaaaa;
   }
-  .place__img {
+  .places__img {
     width: 100%;
     max-width: 340px;
   }
-  .place__paragraph {
+  .places__paragraph {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
     letter-spacing: 0%;
   }
-  .place__button {
+  .places__button {
     position: absolute;
     top: 500px;
     left: 24px;
@@ -126,7 +126,7 @@
     color: white;
     border: none;
   }
-  .place__button:hover {
+  .places__button:hover {
     background: linear-gradient(
       90deg,
       rgba(2, 120, 254, 0.25) 0%,
@@ -145,14 +145,14 @@
     width: 100%;
     row-gap: 30px;
   }
-  .place__title {
+  .places__title {
     font-family: Inter;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     letter-spacing: 0%;
   }
-  .place__website {
+  .places__website {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
@@ -162,7 +162,7 @@
     flex-direction: column;
     justify-content: flex-end;
   }
-  .place__url-heading {
+  .places__url-heading {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -170,10 +170,10 @@
     letter-spacing: 12%;
     text-transform: uppercase;
   }
-  .place__img {
+  .places__img {
     width: 100%;
   }
-  .place__paragraph {
+  .places__paragraph {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -181,7 +181,7 @@
     letter-spacing: 0%;
     padding: 0 16px 0 16px;
   }
-  .place__button {
+  .places__button {
     width: 288px;
     height: 48px;
     color: white;
@@ -200,7 +200,7 @@
     letter-spacing: 0%;
     text-align: center;
   }
-  .place__button:hover {
+  .places__button:hover {
     background: linear-gradient(
       90deg,
       rgba(2, 120, 254, 0.25) 0%,
